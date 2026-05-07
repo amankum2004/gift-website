@@ -623,10 +623,18 @@ body {
   background: var(--dark);
   color: #e8b4cc;
   text-align: center;
-  padding: 28px;
+  padding: 36px 28px;
   font-size: 0.95rem;
   position: relative;
   z-index: 1;
+}
+
+.footer-names {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  color: #ff6b9d;
+  margin-bottom: 8px;
+  animation: heartbeat 1.2s ease-in-out infinite;
 }
 
 /* ===== RESPONSIVE ===== */
