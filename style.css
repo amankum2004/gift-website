@@ -794,3 +794,15 @@ body {
   margin-top: 12px;
   line-height: 1.4;
 }
+
+.polaroid-wide {
+  grid-column: 1 / -1;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.polaroid-wide img {
+  aspect-ratio: unset;
+  height: auto;
+  object-fit: unset;
+}
